@@ -4,7 +4,7 @@
 public class MultipleChoiceQuestion extends Question {
 
 
-    private MultipleChoiceQuestion(String question, String... candidateAnswersArray) {
+    public MultipleChoiceQuestion(String question, String... candidateAnswersArray) {
         super(question, candidateAnswersArray);
     }
 

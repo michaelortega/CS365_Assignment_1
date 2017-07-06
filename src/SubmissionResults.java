@@ -3,4 +3,6 @@
  */
 public interface SubmissionResults {
     void generateReport();
+
+    void incrementAnswerFreq(iVoteSystemUser user);
 }

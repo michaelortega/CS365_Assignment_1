@@ -20,7 +20,7 @@ public class SingleChoiceQuestion extends Question {
     }
 
 
-    private static String[]candidateAnswersToArr(String candidateAnswer1, String candidateAnswer2) {
+    private static String[] candidateAnswersToArr(String candidateAnswer1, String candidateAnswer2) {
         return new String[]{candidateAnswer1, candidateAnswer2};
     }
 
